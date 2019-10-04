@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'mvn clean package'
-                sh 'file 77'
+                #sh 'file 77'
             }
         }
         stage('Test') {
